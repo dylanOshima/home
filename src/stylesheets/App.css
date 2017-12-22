@@ -1,0 +1,71 @@
+/*
+  Color Theme: https://coolors.co/eff4f7-61e786-212026-48435c-9792e3
+
+*/
+
+.App {
+  margin: auto auto;
+  text-align: center;
+
+  height: 80vh;
+  font-size: 1.1em;
+}
+
+/******** CONSOLE *********/
+
+.history-item  {
+  width: 45vw;
+  text-align: left;
+  color: #61E786;
+  margin: 1.2em auto;
+  text-indent: -2em;
+}
+
+.console-history {
+  font-size: 1em;
+  height: 40vh;
+  overflow-y: scroll;
+}
+
+/******** CONSOLE INPUT *********/
+
+.console-input {
+  margin-top: 2em;
+  color: #EFF4F7;
+  font-size: 2em;
+}
+
+.input {
+  width: 50vw;
+  caret-color: #FFE500;
+
+  border: 0px none;
+  background: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+input:focus {
+    outline:none;
+    box-shadow: 0px;
+}
+
+/******** FOOTER *********/
+
+.footer {
+  padding: 0.7em;
+  width: 100vw;
+  top: 88vh;
+  position: absolute;
+  background-color: #48435C;
+}
+
+.image-icn {
+  color: #FFE500;
+}
+.image-icn:hover, a:hover {
+  color: #EFF4F7;
+}
+
+/******** MOBILE *********/
