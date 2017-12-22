@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
-body {
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -12,12 +12,12 @@ body {
 }
 
 p  {
-  width: 45vw;
   text-align: left;
   color: #61E786;
 }
 
 h1 {
+  padding: 0.7em;
   font-size: 2.5em;
   color: #EFF4F7;
 }

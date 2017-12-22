@@ -104,8 +104,8 @@ class App extends Component {
         </div>
 
         <div className="footer">
-          <a href="https://github.com/dylanoshima"><FaGithubSquare className="image-icn"/></a> | <a href="https://www.instagram.com/platinumglasses/"><FaInstagram  className="image-icn"/></a> | <a href="https://www.linkedin.com/in/dylan-oshima"><FaLinkedinSquare  className="image-icn"/></a><br /><br />
-          Created by <a href="mailto:wer2213.online@gmail.com?&amp;subject=Tell Me About The Philippines&amp;body=I know it's great but, I've always been dying to know..."><b>D.R. Oshima</b></a>.
+          <a href="https://github.com/dylanoshima"><FaGithubSquare className="image-icn"/></a> | <a href="https://www.instagram.com/platinumglasses/"><FaInstagram  className="image-icn"/></a> | <a href="https://www.linkedin.com/in/dylan-oshima-113490150/"><FaLinkedinSquare  className="image-icn"/></a><br /><br />
+          Created by <b><a className="footer-email" href="mailto:wer2213.online@gmail.com?&amp;subject=Tell Me About The Philippines&amp;body=I know it's great but, I've always been dying to know...">D.R. Oshima</a></b>.
         </div>
       </div>
     );

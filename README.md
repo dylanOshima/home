@@ -10,7 +10,7 @@
   2. Buy Domain
   3. Create backend
       1. 404 Message
-  4. Make it reactive.
+  4. ~~Make it reactive.~~
 
 ## BUGS
 _n/a_
