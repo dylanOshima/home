@@ -9,7 +9,7 @@
           1. ~~Error prompt~~
   2. Buy Domain
   3. Create backend
-      4. 404 Message
+      1. 404 Message
   4. Make it reactive.
 
 ## BUGS
