@@ -22,7 +22,8 @@
 /******** CONSOLE *********/
 
 .Console {
-  background-color: #48435C; 
+  background-color: #48435C;
+  border: 1.5px solid #2D2D2D;
   min-height: 6em;
   margin: 2em auto 2em auto;
   color: #00ffec;
@@ -73,6 +74,11 @@ input:focus {
 .footer-email {
   text-deocoration: none;
   color: inherit;
+}
+
+.footer-subext {
+  font-size: 0.75em;
+  /* color: #757575; */
 }
 
 .image-icn {

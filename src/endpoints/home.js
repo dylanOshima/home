@@ -14,7 +14,7 @@ class Home extends Component {
     this.state = {
       input: "",
       output: [
-           "Hello, my name is Dylan!^200 Welcome to my <b>site</b>."
+           "Hello,^500\nmy name is <i>Dylan</i>!^200 Welcome to my <b>site</b>."
            ,"This site serves as a portal into my\nthoughts,^500\ninterests,^500\nideas,^500\nand way of thinking."
            ,"You can use the command line below to navigate :D."
            ,"Try typing: <b>about</b>"]
@@ -93,12 +93,12 @@ class Home extends Component {
     let insults = ['"If I wanted a joke, \nI\'d follow you into the John and watch you take a leak"\n-- Planes, Trains and Automobiles',
       '“I don’t give a tuppeny fuck about your moral conundrum, \nyou meat-headed shit sack.”^500\n-- Gangs Of New York',
       '“You’re an emotional f*cking cripple. \nYour soul is dogsh*t. \nEvery single f*cking thing about you is ugly.”^500\n-- Bad Santa',
-      '“You are nothing! If you were in my toilet I wouldn\'t bother flushing it. My bathmat means more to me than you.”^500\n-- Swimming With Sharks',
+      '“You are nothing! \nIf you were in my toilet I wouldn\'t bother flushing it. My bathmat means more to me than you.”^500\n-- Swimming With Sharks',
       '"You are physically repulsive, intellectually retarded, \nyou\'re morally reprehensible, vulgar, insensitive, selfish, stupid, you have no taste, a lousy sense of humour and you smell. You\'re not even interesting enough to make me sick."^500\n-- The Witches Of Eastwick',
-      '"I\'ll explain and I\'ll use small words so that you\'ll be sure to understand, you warthog faced buffoon."^500\n-- The Princess Bride',
+      '"I\'ll explain and \nI\'ll use small words so that you\'ll be sure to understand, \nyou warthog faced buffoon."^500\n-- The Princess Bride',
       '"You are a sad strange little man, \nand you have my pity."^500\n-- Toy Story',
       '"Does Barry Manilow know that you raid his wardrobe?"^500\n-- The Breakfast Club',
-      '“It looks to me like the best part of you ran down the crack of your momma’s ass and ended up as a brown stain on the mattress!”^500\n-- Full Metal Jacket',
+      '“It looks to me like the best part of you \nran down the crack of your momma’s ass \nand ended up as a brown stain on the mattress!”^500\n-- Full Metal Jacket',
       '"What you’ve just said is one of the most insanely idiotic things I have ever heard. At no point in your rambling, incoherent response were you even close to anything that could be considered a rational thought. Everyone in this room is now dumber for having listened to it. I award you no points, and may God have mercy on your soul."^500\n-- Billy Madison'
     ]
 
@@ -134,7 +134,8 @@ class Home extends Component {
 
         <div className="footer">
           <a href="https://github.com/dylanoshima"><FaGithubSquare className="image-icn"/></a> | <a href="https://www.instagram.com/platinumglasses/"><FaInstagram  className="image-icn"/></a> | <a href="https://www.linkedin.com/in/dylan-oshima-113490150/"><FaLinkedinSquare  className="image-icn"/></a><br /><br />
-          Created by <b><a className="footer-email" href="mailto:wer2213.online@gmail.com?&amp;subject=Tell Me About The Philippines&amp;body=I know it's great but, I've always been dying to know...">D.R. Oshima</a></b>.
+          Created by <b><a className="footer-email" href="mailto:wer2213.online@gmail.com?&amp;subject=Tell Me About The Philippines&amp;body=I know it's great but, I've always been dying to know...">D.R. Oshima</a></b>・(not a doctor)<br />
+          <span className="footer-subext">Created with: <i>React</i>, <i>Typed.js</i>, <i>React-Router</i></span>
         </div>
       </div>
     );
