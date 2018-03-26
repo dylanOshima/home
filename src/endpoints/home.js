@@ -28,7 +28,9 @@ class Home extends Component {
   /**FUNCTIONALITY**/
 
   updateText(elem, strings, typedObj){
-    this.typed ? this.typed.destroy() : null;
+    if(this.typed){
+      this.typed.destroy();
+    }
 
     console.log("updateText()")
 
@@ -126,7 +128,7 @@ class Home extends Component {
 
             <div className="input">
               <b>Dylan's-Mind:~ </b>
-              <input className="input-elem" onChange={this.handleChange} onKeyPress={this.handleSubmit} type="text" value={this.state.input} placeholder="Input a command" name="searchbar" />
+              <input className="input-elem" onChange={this.handleChange} onKeyPress={this.handleSubmit} type="text" value={this.state.input} placeholder="type 'help' for assistance" name="searchbar" />
             </div>
 
           </div>
