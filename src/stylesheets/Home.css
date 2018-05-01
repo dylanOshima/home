@@ -1,0 +1,108 @@
+/*
+  Color Theme: https://coolors.co/eff4f7-61e786-212026-48435c-9792e3
+  Icons: https://github.com/gorangajic/react-icons
+
+*/
+
+.Home {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  font-size: 1em;
+}
+
+.body {
+  padding: 2em;
+}
+
+.title {
+  font-size: 2em;
+}
+
+/******** CONSOLE *********/
+
+.Console {
+  background-color: #48435C;
+  border: 1.5px solid #2D2D2D;
+  min-height: 6em;
+  margin: 2em auto 2em auto;
+  color: #00ffec;
+  font-size: 1em;
+  overflow-x: hidden;
+}
+
+.type-wrap {
+  margin: 1.5em auto 1.5em auto;
+}
+
+/******** CONSOLE INPUT *********/
+
+.console-input {
+  color: #EFF4F7;
+  font-size: 2em;
+}
+
+.input {
+  position: relative;
+  bottom: -2em;
+}
+
+.input-elem {
+  width: 50vw;
+  caret-color: #FFE500;
+  border: 0px none;
+  background: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+input:focus {
+    outline:none;
+    box-shadow: 0px;
+}
+
+/******** FOOTER *********/
+
+.footer {
+  padding: 1em;
+  right:0;bottom:0;left:0;
+  position: absolute;
+  background-color: #48435C;
+}
+
+.footer-email {
+  text-deocoration: none;
+  color: inherit;
+}
+
+.footer-subext {
+  font-size: 0.75em;
+  /* color: #757575; */
+}
+
+.image-icn {
+  color: #FFE500;
+}
+
+.image-icn:hover, .footer-email:hover {
+  color: #EFF4F7;
+}
+
+/******** MOBILE *********/
+@media only screen and (max-width: 1224px){
+  h1 {
+    font-size: 2em;
+  }
+
+  .history-item{
+    width: 80vw;
+    text-indent: 0;
+  }
+
+  .console-input {
+    margin-top: 0em;
+    font-size: 1em;
+  }
+
+}
