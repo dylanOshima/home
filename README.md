@@ -7,7 +7,7 @@
       2. ~~Terminal looking interface~~.
       3. ~~Cmd Line~~
           1. ~~Error prompt~~
-  2. Buy Domain
+  2. ~~Buy Domain~~
   3. Create backend
       1. 404 Message
   4. ~~Make it reactive.~~
