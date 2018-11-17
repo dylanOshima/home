@@ -1,4 +1,4 @@
-# Doctor-O
+# Doctor-O [*version-1.0*]
 ### This is the personal site of Dylan Oshima. This site allows you to explore my mind.
 
 ## TODO
