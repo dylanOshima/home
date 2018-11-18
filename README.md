@@ -1,19 +1,21 @@
 # Doctor-O
 ### This is the personal site of Dylan Oshima. This site allows you to explore my mind.
 
+## Fonts
+After I had come up with the initial design I started looking for fonts. This might not have been the correct order to do things, but I like having a nice font because it lets me adjust the layout more precisely when I actually start coding. I looked around google's font library and decided:
+
+1. **Primary Color:** - [Heebo](#)
+
+## Color Scheme
+### Lights
+1. 
+
+
+### Midtones
+
+## Darks
+
 ## TODO
-  1. Making landing page
-      1. ~Suggests endpoints~
-      2. ~~Terminal looking interface~~.
-      3. ~~Cmd Line~~
-          1. ~~Error prompt~~
-  2. ~~Buy Domain~~
-  3. Create backend
-      1. 404 Message
-  4. ~~Make it reactive.~~
-  5. Implement React-Router
-      1. Implement Next.js to compare
-  6. Add decorative eyes so people understand it's my subconcious
 
 ## PAGES
   1. Main Console

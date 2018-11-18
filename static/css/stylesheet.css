@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,700');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Heebo, arial;
+  display: grid;
+  grid-template-columns: 30vw auto 30vw;
+  grid-template-rows: 30vh auto auto;
+}
+
+/* NAV INFORMATION */
+a {
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+li a:hover {
+  color: blue;
+}
+nav {
+  grid-column: 1;
+  grid-row: 1/-1;
+  margin: 7.5vh 0.5em 1em 0;
+  font-size: 2em;
+}
+/* Menu */
+nav ul{
+  text-align: right;
+  list-style: none;
+}
+li a {
+  display: block;
+  text-decoration: none;
+}
+.menu, .menu-sub {
+  text-decoration: underline;
+}
+.focus{
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+.level-1, .level-2 {
+  position: relative;
+  text-align: right;
+  padding-left: 0em;
+  /* width: 120px; */
+}
+/* Menu Item */
+.level-0 > li {
+  display: inline;
+  font-weight: 300;
+}
+/* Sub-Menu Item */
+.level-1 > li {
+  display: none
+}
+/* Sub-Menu-2 Item */
+.level-2 > li {
+  display: none
+}
+/* If JQuery is not found */
+.level-1.fallback {
+  display: none;
+}
+nav ul li:hover ul.fallback {
+  display: block;
+}
+/* NAV INFORMATION */
+
+body h1 {
+  align-self: top;
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 4.5em;
+  margin-bottom: 0em;
+  text-align: left;
+  align-self: end;
+}
+
+.about {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+#feed {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.item {
+
+}
