@@ -16,12 +16,7 @@ body {
 a {
   color: black;
 }
-a:hover {
-  color: blue;
-}
-li a:hover {
-  color: blue;
-}
+
 nav {
   grid-column: 1;
   grid-row: 1/-1;
@@ -40,7 +35,7 @@ li a {
 .menu, .menu-sub {
   text-decoration: underline;
 }
-.focus{
+.focus, a:hover{
   text-decoration: line-through;
   opacity: 0.3;
 }
@@ -80,13 +75,6 @@ body h1 {
   margin-bottom: 0em;
   text-align: left;
   align-self: end;
-}
-
-.about {
-  grid-column: 2;
-  grid-row: 2;
-  font-size: 1.25em;
-  text-align: justify;
 }
 
 #feed {
